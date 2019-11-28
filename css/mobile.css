@@ -1,0 +1,114 @@
+@media (min-width:738px) and (max-width:1100px) {
+    html {
+        overflow-x: hidden;
+    }
+    .navbar ul{
+        margin-left: 60%;
+    }
+    .parte-item {
+        top: 70em!important;
+    }
+    #contact {
+        margin-top: -8px!important;
+    }
+}
+@media (min-width:1400px){
+    html {
+        overflow-x: hidden;
+    }
+    #contact {
+        height: 800px!important;
+    }
+    .contact-item {
+        margin-top: 35em!important;
+    }
+} 
+@media (max-width:737px){
+    .general {
+        max-width:100%!important;
+        overflow-x: hidden;
+    }
+    .navbar {
+        position: relative;
+    }
+    .navbar img {
+        padding: 0;
+        float: none;
+        margin-left: 75px!important;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .banner {
+        background: none!important;
+    }
+    .banner-item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .banner-item p {
+        max-width: 97%;
+    }
+    .beneficios {
+        height: 750px!important;
+        padding: 50px 0; 
+    }
+    .beneficios .container-grid {
+        grid-template-columns: auto;
+    }
+    .beneficios-item {
+        margin: 0!important;
+        padding: 0!important;
+    }
+    #facaparte {
+        max-height: 0!important;
+    }
+    #facaparte img { 
+        margin:0!important;
+        width: 140%;
+
+    }
+    .parte-item {
+        font-size: 10pt;
+        width:250px;
+        position: relative;
+        top:-150px;
+        left: 120px;
+        text-align: center;
+    }
+    .parte-item h2 {
+        font-size: 12pt;
+    }
+    .parte-item p {
+        font-size: 6pt;
+    }
+    #contact {
+        height: auto;
+    }
+    #contact .container-grid {
+        grid-template-columns: auto;
+    }
+    .contact-item {
+        text-align: center;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .left {
+        text-align: center;
+    }
+    .center {
+        text-align: center;
+        margin-top: 10%;
+    }
+    .right {
+        text-align: center;
+        margin-top: 10%;
+    }
+    .lateral-topo {
+        display: none;
+    }
+    .lateral-bottom {
+        display: none;
+    }
+}

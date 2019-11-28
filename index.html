@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <title>Meu Detalhe</title>
+</head>
+<body>
+<div class="general">
+<header id="navbar">
+    <nav class="navbar js">
+        <a href=""><img src="img/logo.png" alt="Meu Detalhe" width="200"></a>
+            <ul>
+                <li><a href="#meudetalhe">Inicio</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#facaparte">Sobre</a></li>
+                <li><a href="#contact">Baixe</a></li>
+            </ul>
+        </nav>
+</header>
+<section id="meudetalhe"> <!--style="background-image: url("/img/banner1.png")"-->
+        <div class="banner">
+            <div class="container">
+                <div class="banner-item js">
+                    <h1>Bem Vinda à <br/> seu detalhe</h1>
+                    <p>No meu detalhe você recebe suas peças quando você quiser, de acordo com o seu calendário e o da loja.
+                    Foi feito exatamente pra você que possui uma vida corrida e pouco tempo para compras fisicas.<br> É ou não é um arraso esse app?</p>
+                    <a href="#contact">Baixe Já</a>
+                </div>
+                <!--<img src="<?php bloginfo('template_url');?>/img/banner1.png"> -->
+            </div>
+        </div>
+</section>
+<section id="beneficios">
+    <div class="beneficios">
+        <div class="container-grid">
+            <div class="beneficios-item">
+                <img src="img/beneficiosicon.png"  width="120">
+                <h3>Adicione suas medidas</h3>
+                <p>
+                    Meu detalhe possibilita que você<br>
+                    acesse os looks ideais pra você, de acordo<br>
+                    com a sua estatura corporal
+                </p>
+            </div>
+            <div class="beneficios-item">
+            <img src="img/beneficiosicon2.png" width="120">
+                    <h3>Frete Grátis</h3>
+                    <p>
+                        Nas compras acima de R$ 250,00 seu frete é gratis!
+                        Vem aproveitar nossas peças online.
+                    </p>
+             </div>
+            <div class="beneficios-item">
+            <img src="img/beneficiosicon4.png" width="110">
+                    <h3>Pagamento Facilitado</h3>
+                    <p>
+                       Trabalhos com diversos métodos,
+                       cartões de crédito,débito e Paypal!
+                       Além de um sistema de entrega exclusivo local para Fortaleza/CE
+                    </p>
+            </div>
+        </div>    
+    </div>    
+</section>  
+<section id="facaparte">
+    <img src="img/plano.jpg">
+    <div class="parte-item">
+        <h2>Sobre Nós</h2>
+        <p>Meu detalhe é um aplicativo
+           que facilita sua vida na hora de comprar
+           as peças que você mulher mais precisa,
+           sem precisar ir em um shopping ou fazer
+           compras presenciais, é nosso dever te proporcionar
+           uma experiência rápida e agradável como você quer.
+        </p>
+    </div> 
+</section>
+<section id="contact">
+   <!-- <img class="lateral-top" src="/img/lateral.png">-->
+    <div class="container-grid">
+        <div class="contact-item left">
+            <h3>Meu detalhe</h3>
+            <p>
+                Meu detalhe foi feito
+                exatamente para você que possui uma vida corrida
+                e pouco tempo para compras fisicas.
+                é nosso dever te proporcionar experiências
+                rápidas e gratificantes, nos seus minimos
+                detalhes e como você quer.
+            </p>
+        </div>
+        <div class="contact-item center">
+            <h3>Baixe já</h3>
+            <p>Estamos presentes nas plataformas<br>
+               IOS e Android.
+            </p>
+            <a href="https://www.apple.com/br/ios/app-store/" target="_blank"><img src="img/android.png" width="150" ></a>
+            <a href="https://play.google.com/store?hl=pt" target="_blank"><img src="img/apple.png" width="150"></a>
+        </div>
+        <div class="contact-item right">
+            <h3>Contato</h3>
+            <ul>
+                <li><img src="img/icon1.png">(85) 4002-8922</li>
+                <li><img src="img/iconmensagem.png">comercial@meudetalhe.com.br</li>
+                <li><img src="img/iconwhats.png">(85) 98524-4656</li>
+                <li><img src="img/iconface.png">Meu detalhe</li>
+                <li><img src="img/iconinsta.png">@meudetalhe</li>
+            </ul>
+        </div>
+       <!-- <img class="lateral-bottom" src="/img/lateral2.png">-->
+    </div>
+</section>
+
+</div>    
+</body>
+<script src="js/main.js"></script>
+<script src="js/scrollreveal.js"></script>
+
+<script>
+window.sr = ScrollReveal();
+//sr.reveal('#general h1,#general  h2,#general  h3,#general  h4,#general  li,#general  p,#general  a', { duration: 600, origin: 'bottom', distance: '60px', easing: 'ease', scale: 1, delay: 300 });
+sr.reveal('#meudetalhe .banner-item', { duration: 400, origin: 'left', distance: '60px', easing: 'ease', scale: 0, delay: 400,  reset: true });
+sr.reveal('#meudetalhe img', { duration: 400, origin: 'right', distance: '60px', easing: 'ease', scale: 0, delay: 400,  reset: true });
+sr.reveal('#beneficios .beneficios-item', { duration: 400, origin: 'bottom', distance: '60px', easing: 'ease', scale: 0, delay: 400,  reset: true });
+sr.reveal('#facaparte .parte-item', { duration: 400, origin: 'right', distance: '20px', easing: 'ease', scale: 0, delay: 500,  reset: true });
+sr.reveal('#contact .left', { duration: 400, origin: 'left', distance: '15px', easing: 'ease', scale: 0, delay: 500,  reset: true });
+sr.reveal('#contact .right', { duration: 400, origin: 'right', distance: '15px', easing: 'ease', scale: 0, delay: 500,  reset: true });
+sr.reveal('#contact .center', { duration: 400, origin: 'bottom', distance: '15px', easing: 'ease', scale: 0, delay: 500,  reset: true });
+</script>
+</html>
